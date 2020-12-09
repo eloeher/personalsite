@@ -9,6 +9,11 @@ body{
   color: floralwhite;
 }
 
+p{
+  color: floralwhite;
+  max-width: 600px;
+}
+
 .dark > p {
   color:gainsboro;
 }
