@@ -1,0 +1,63 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  background:linear-gradient(to top, #ee9ca7, #ffdde1);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: floralwhite;
+}
+
+.dark > p {
+  color:gainsboro;
+}
+.dark > h1 {
+  color:gainsboro;
+}
+
+a {
+  color: floralwhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark > .card > a {
+  color:gainsboro;
+}
+.dark > .card {
+ border: 3px ridge gainsboro;
+ box-shadow: 4px 4px blue;
+}
+
+.card {
+  border: 3px ridge floralwhite;
+  padding: 15px;
+  box-shadow: 4px 4px rgb(121, 0, 40);
+}
+
+.dark {
+    background:  linear-gradient(to top, #0f0c29, #302b63); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.socials{
+  padding: 16px 0px;
+}
+
+img{
+  height: 100px;
+  border-radius:50%;
+}
+
+#twitter{
+  color:floralwhite;
+}
+
+#email{
+  color:floralwhite;
+}
+
+.form{
+  font-family:'Courier New', Courier, monospace;
+  font-size:18px;
+}
