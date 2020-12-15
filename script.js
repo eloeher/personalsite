@@ -1,7 +1,7 @@
 
-let add = document.getElementById("add");
+let darkmode = document.getElementById("darkmode");
 
-add.addEventListener("click", switch_to_dark);
+darkmode.addEventListener("click", switch_to_dark);
 
 function switch_to_dark(event){
   document.body.classList.toggle("dark");
