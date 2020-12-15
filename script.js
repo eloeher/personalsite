@@ -1,3 +1,12 @@
+
+let add = document.getElementById("add");
+
+add.addEventListener("click", switch_to_dark);
+
+function switch_to_dark(event){
+  document.body.classList.toggle("dark");
+}
+
 document.body.onkeyup = function(event){
   console.log(event.keyCode);
   if (event.keyCode == 68){
